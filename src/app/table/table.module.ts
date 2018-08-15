@@ -6,6 +6,7 @@ import { DatatableComponent } from './datatable/datatable.component';
   imports: [
     CommonModule
   ],
-  declarations: [DatatableComponent]
+  declarations: [DatatableComponent],
+  exports: [DatatableComponent]
 })
 export class TableModule { }

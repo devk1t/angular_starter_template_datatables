@@ -3,16 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { UiModule } from './ui/ui.module';
-import { DatatableComponent } from './table/datatable/datatable.component';
+import { TableModule } from './table/table.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    DatatableComponent
   ],
   imports: [
     BrowserModule,
-    UiModule
+    UiModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
