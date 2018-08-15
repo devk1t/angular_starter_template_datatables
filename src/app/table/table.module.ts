@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Data } from './data.table/data.table.component';
+import { DatatableComponent } from './datatable/datatable.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [Data.TableComponent]
+  declarations: [DatatableComponent]
 })
-export class TablesModule { }
+export class TableModule { }
