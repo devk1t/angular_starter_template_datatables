@@ -6,6 +6,7 @@ import { UiModule } from './ui/ui.module';
 import { TableModule } from './table/table.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
